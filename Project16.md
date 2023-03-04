@@ -49,7 +49,6 @@ resource "aws_vpc" "main" {
 
 - Initiated the command `terraform init` to download necessary plugins for Terraform to work.
 
-![Terraform init ](images/c.png)
 
 - To see what Terraform intends to create before instructing it to create the aws vpc resource, run the command below.
 
@@ -57,13 +56,13 @@ resource "aws_vpc" "main" {
 terraform plan
 ```
 
-![Terraform plan ](images/d.png)
+![Terraform plan ](images/d.PNG)
 
 - Executed the plan with ```terraform apply```
 
 A new file terraform.tfstate is created as a result of the above command which Terraform uses to keeps itself up to date with the exact state of the infrastructure and terraform.tfstate.lock.info file which Terraform uses to track who is running its code against the infrastructure at any point in time
 
-![Terraform apply ](images/e.png)
+![Terraform apply ](images/e.PNG)
 
 ![Terraform apply ](images/f.png)
 
@@ -202,7 +201,7 @@ terraform fmt
 
 - Ran  `terraform plan`  to ensure there is no error in the configuration  files. then `terraform apply` to create resource.
 
-![file structure](images/j.png)
+![file structure](images/j.PNG)
 
 ![file structure](images/k.png)
 
