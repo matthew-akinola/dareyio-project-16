@@ -56,7 +56,7 @@ resource "aws_vpc" "main" {
 terraform plan
 ```
 
-![Terraform plan ](images/d.PNG)
+![Terraform plan ](images/dd.PNG)
 
 - Executed the plan with ```terraform apply```
 
