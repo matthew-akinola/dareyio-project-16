@@ -22,10 +22,6 @@ pip3 install boto3
 aws s3 ls
 ```
 
-- The result below printed the s3 bucket created earlier.
-
-![S3 Bucket](images/b.png)
-
 - In my Visual Studio created a folder and named it PBL
 
 - Inside the PBL folder created a file and named it main.tf
