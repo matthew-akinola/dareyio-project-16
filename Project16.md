@@ -62,7 +62,7 @@ terraform plan
 
 A new file terraform.tfstate is created as a result of the above command which Terraform uses to keeps itself up to date with the exact state of the infrastructure and terraform.tfstate.lock.info file which Terraform uses to track who is running its code against the infrastructure at any point in time
 
-![Terraform apply ](images/e.PNG)
+![Terraform apply ](images/ee.PNG)
 
 ![Terraform apply ](images/f.png)
 
@@ -201,7 +201,7 @@ terraform fmt
 
 - Ran  `terraform plan`  to ensure there is no error in the configuration  files. then `terraform apply` to create resource.
 
-![file structure](images/j.PNG)
+![file structure](images/jj.PNG)
 
 ![file structure](images/k.png)
 
